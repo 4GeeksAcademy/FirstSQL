@@ -18,6 +18,7 @@ def connect():
 
 connect()
 
+#Drop: asi puedo volver a ejecutar el codigo SQL
 engine.execute("""
 DROP TABLE book_authors;
 
